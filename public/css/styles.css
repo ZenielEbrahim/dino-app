@@ -1,0 +1,82 @@
+
+html{
+    font-size:100%;
+    box-sizing:border-box;
+}
+
+
+
+*,
+*::before, 
+*::after{
+    box-sizing: inherit;
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    border:4px solid khaki;
+    height: 100vh;
+    background-image: url('/images/jason-miller-jPs0ZgfLRww-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.generator{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:rgba(0, 0, 0, 0.671);
+    height:100vh;
+    width:100vw
+}
+
+h1{
+    position: absolute;
+    top:3rem;
+    font-size: 4rem;
+    color:white;
+    font-family: 'Otomanopee One', sans-serif;
+
+}
+#dinoName{
+    font-size: 1.5rem;
+    color:white;
+    font-family: 'Otomanopee One', sans-serif;
+}
+#dinoImage{
+    background:lemonchiffon;
+    padding:1rem;
+    height:400px;
+    width:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:2rem;
+}
+
+img{
+    width:370px;
+    height:370px;
+
+}
+
+#btnLoad{
+    background:gold;
+    padding: 1rem 2rem;
+    color: white;
+    border-radius: 1rem;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size:1.3rem;
+}
+
+#btnLoad:hover,
+#btnLoad:active{
+    background:rgb(228, 194, 0);
+}
